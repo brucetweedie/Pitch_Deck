@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+  <style>@font-face{font-family:'Inter';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,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) format('woff2');}
+    text{font-family:'Inter',sans-serif;font-weight:600;}</style>
+  <linearGradient id="rollg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"   stop-color="#9a6206"/>
+    <stop offset="0.30" stop-color="#f0ad2c"/>
+    <stop offset="0.52" stop-color="#ffc24a"/>
+    <stop offset="0.74" stop-color="#e09a18"/>
+    <stop offset="1"   stop-color="#7e4f03"/>
+  </linearGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="160%">
+    <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000000" flood-opacity="0.55"/>
+  </filter>
+</defs>
+<rect width="1920" height="1080" fill="#000000"/>
+<g id="ribbon-1" class="ribbon" data-w="1039">
+  <rect class="shadow" x="130" y="111" width="1039.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="130" y="111" width="1039.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1113.0" y="111" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="174" y="155.0" font-size="46" fill="#000000" dominant-baseline="central">Can we re-record our own version?</text>
+  <g class="roll">
+    <rect x="1123.0" y="104" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1146.0" cy="110" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-2" class="ribbon" data-w="997">
+  <rect class="shadow" x="152" y="221" width="997.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="152" y="221" width="997.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1093.0" y="221" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="196" y="265.0" font-size="46" fill="#000000" dominant-baseline="central">Are we able to change the lyrics?</text>
+  <g class="roll">
+    <rect x="1103.0" y="214" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1126.0" cy="220" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-3" class="ribbon" data-w="1531">
+  <rect class="shadow" x="174" y="331" width="1531.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="174" y="331" width="1531.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1649.0" y="331" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="218" y="375.0" font-size="46" fill="#000000" dominant-baseline="central">Can we add an extra spot, and cinema, and podcasts?</text>
+  <g class="roll">
+    <rect x="1659.0" y="324" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1682.0" cy="330" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-4" class="ribbon" data-w="1521">
+  <rect class="shadow" x="196" y="441" width="1521.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="196" y="441" width="1521.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1661.0" y="441" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="240" y="485.0" font-size="46" fill="#000000" dominant-baseline="central">Why not just use a song from the free TikTok library?</text>
+  <g class="roll">
+    <rect x="1671.0" y="434" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1694.0" cy="440" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-5" class="ribbon" data-w="1150">
+  <rect class="shadow" x="218" y="551" width="1150.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="218" y="551" width="1150.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1312.0" y="551" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="262" y="595.0" font-size="46" fill="#000000" dominant-baseline="central">Can we find a more recognisable song?</text>
+  <g class="roll">
+    <rect x="1322.0" y="544" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1345.0" cy="550" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-6" class="ribbon" data-w="1600">
+  <rect class="shadow" x="240" y="661" width="1600.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="240" y="661" width="1600.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1784.0" y="661" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="284" y="705.0" font-size="46" fill="#000000" dominant-baseline="central">What about User Generated Content &amp; Influencer posts?</text>
+  <g class="roll">
+    <rect x="1794.0" y="654" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1817.0" cy="660" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-7" class="ribbon" data-w="1073">
+  <rect class="shadow" x="262" y="771" width="1073.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="262" y="771" width="1073.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1279.0" y="771" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="306" y="815.0" font-size="46" fill="#000000" dominant-baseline="central">Can you get the quoted price down?</text>
+  <g class="roll">
+    <rect x="1289.0" y="764" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1312.0" cy="770" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+<g id="ribbon-8" class="ribbon" data-w="1197">
+  <rect class="shadow" x="284" y="881" width="1197.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="284" y="881" width="1197.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1425.0" y="881" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="328" y="925.0" font-size="46" fill="#000000" dominant-baseline="central">Could the artist appear in the campaign?</text>
+  <g class="roll">
+    <rect x="1435.0" y="874" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1458.0" cy="880" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "ribbon-unfurl-harness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Render harness: animates the approved design/end-state.svg into a 1920x1080 H.264 MP4 (ribbons unfurl L->R and accumulate).",
+  "scripts": {
+    "render": "node render.mjs",
+    "render:1700": "node render.mjs --cadence 1700 --out out/ribbons-1700ms.mp4"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.49.0"
+  }
+}

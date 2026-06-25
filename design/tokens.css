@@ -1,0 +1,14 @@
+/* Music Mill — Ribbon screen tokens */
+:root{
+  --mm-amber:#FDB525;
+  --mm-amber-roll-dark:#7e4f03;
+  --mm-amber-roll-light:#ffc24a;
+  --mm-grey:#7F7F73;
+  --mm-black:#000000;
+  --mm-white:#FFFFFF;
+  --mm-font:'Inter';
+  --mm-font-weight:600;
+  --mm-type-px:46;
+  --mm-ribbon-h:88;
+  --mm-radius:8;
+}
