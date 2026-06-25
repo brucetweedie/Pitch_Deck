@@ -10,9 +10,18 @@
       "Bash(mkdir:*)",
       "Bash(cat:*)",
       "Bash(node:*)",
-      "Bash(python:*)",
       "Bash(npm run:*)",
-      "Bash(ffmpeg:*)"
+      "Bash(ffmpeg:*)",
+      "PowerShell(git add *)",
+      "PowerShell(git commit *)",
+      "PowerShell(git pull *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Move-Item *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(node *)",
+      "PowerShell(npm run *)",
+      "PowerShell(ffmpeg *)"
     ]
   }
 }
