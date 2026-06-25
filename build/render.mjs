@@ -57,6 +57,17 @@ const svgPath = resolve(__dirname, CONFIG.SVG);
 const outPath = resolve(__dirname, CONFIG.OUT);
 const framesDir = join(__dirname, '.frames');
 
+// Temp artifacts this harness may create or leave behind. Swept internally via
+// fs.rmSync (never via a shell `rm`), so a global rm-deny can't break a render.
+const tempArtifacts = [
+  framesDir,                       // per-frame PNG scratch dir (this script's own)
+  join(__dirname, 'checkframes'),  // verification stills pulled out for review
+  join(__dirname, 'measure.mjs'),  // one-off width-measurement script
+];
+function sweepTemp() {
+  for (const p of tempArtifacts) rmSync(p, { recursive: true, force: true });
+}
+
 // ---------------------------------------------------------------------------
 // In-page animation code (runs inside headless Chromium, injected as a string).
 // Grows carpet+shadow width and clips text to the revealed region; the roll and
@@ -163,7 +174,7 @@ async function main() {
   console.log(`Ribbons: ${N}  Cadence: ${CONFIG.CADENCE_MS}ms  Total: ${(total/1000).toFixed(2)}s  Frames: ${nFrames}`);
   console.log(`Output : ${outPath}`);
 
-  rmSync(framesDir, { recursive: true, force: true });
+  sweepTemp();                     // clear any leftover temp from a prior run
   mkdirSync(framesDir, { recursive: true });
   mkdirSync(dirname(outPath), { recursive: true });
 
@@ -198,7 +209,7 @@ async function main() {
     outPath,
   ]);
 
-  rmSync(framesDir, { recursive: true, force: true });
+  sweepTemp();                     // remove all temp artifacts on completion
   console.log('Done: ' + outPath);
 }
 

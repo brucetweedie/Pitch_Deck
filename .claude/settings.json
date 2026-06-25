@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(python:*)",
+      "Bash(npm run:*)",
+      "Bash(ffmpeg:*)"
+    ]
+  }
+}
