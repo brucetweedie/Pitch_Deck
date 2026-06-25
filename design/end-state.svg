@@ -84,14 +84,14 @@
     <ellipse cx="1312.0" cy="770" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
   </g>
 </g>
-<g id="ribbon-8" class="ribbon" data-w="1197">
-  <rect class="shadow" x="284" y="881" width="1197.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
-  <rect class="carpet" x="284" y="881" width="1197.0" height="88" rx="8" fill="#FDB525"/>
-  <rect class="curl" x="1425.0" y="881" width="14" height="88" fill="#d98e15"/>
-  <text class="text" x="328" y="925.0" font-size="46" fill="#000000" dominant-baseline="central">Could the artist appear in the campaign?</text>
+<g id="ribbon-8" class="ribbon" data-w="1486">
+  <rect class="shadow" x="284" y="881" width="1486.0" height="88" rx="8" fill="#FDB525" filter="url(#sh)"/>
+  <rect class="carpet" x="284" y="881" width="1486.0" height="88" rx="8" fill="#FDB525"/>
+  <rect class="curl" x="1714.0" y="881" width="14" height="88" fill="#d98e15"/>
+  <text class="text" x="328" y="925.0" font-size="46" fill="#000000" dominant-baseline="central">Would the artist be willing to appear in the campaign?</text>
   <g class="roll">
-    <rect x="1435.0" y="874" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
-    <ellipse cx="1458.0" cy="880" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
+    <rect x="1724.0" y="874" width="46" height="102" rx="23" fill="url(#rollg)" stroke="#6e4502" stroke-width="1"/>
+    <ellipse cx="1747.0" cy="880" rx="20" ry="5" fill="#caa23a" opacity="0.7"/>
   </g>
 </g>
 </svg>
