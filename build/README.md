@@ -39,7 +39,7 @@ node render.mjs --cadence 1700 --out out/ribbons-1700ms.mp4
 | `--leadin`  | 400     | black hold (ms) before the first ribbon   |
 | `--cadence` | 1300    | ms between successive ribbon **starts**   |
 | `--unfurl`  | 340     | per-ribbon unfurl duration (ms)           |
-| `--tail`    | 2500    | hold on the full wall at the end (ms)     |
+| `--tail`    | 0       | hold on the full wall at the end (ms); 0 = stop on last ribbon |
 | `--fps`     | 60      | frames per second                         |
 | `--out`     | out/ribbons.mp4 | output path                       |
 

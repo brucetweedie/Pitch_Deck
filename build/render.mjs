@@ -32,7 +32,7 @@ const CONFIG = {
   LEAD_IN_MS: 400,    // black hold before the first ribbon starts (opening frame is black)
   CADENCE_MS: 1300,   // gap between successive ribbon STARTS
   UNFURL_MS:  340,    // per-ribbon unfurl duration
-  TAIL_MS:    2500,   // hold on the full wall at the end
+  TAIL_MS:    0,      // post-wall hold; 0 = stop on the frame the last ribbon completes
   FPS:        60,
   EASING:     [0.16, 1, 0.3, 1], // cubic-bezier — snap + slight overshoot
   OUT:        'out/ribbons.mp4',
@@ -185,7 +185,9 @@ async function main() {
   await page.evaluate(cfg => window.__setup(cfg), CONFIG);
 
   for (let f = 0; f < nFrames; f++) {
-    const t = Math.min(f * dt, total);
+    // Last frame lands exactly on `total` (= last-ribbon-start + unfurl, since
+    // TAIL_MS=0), so it shows the fully-unfurled wall. No frame is emitted after.
+    const t = f === nFrames - 1 ? total : Math.min(f * dt, total);
     await page.evaluate(tt => window.__frame(tt), t);
     const name = String(f).padStart(5, '0');
     await page.screenshot({ path: join(framesDir, `f_${name}.png`), clip: { x: 0, y: 0, width: W, height: H } });
