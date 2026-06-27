@@ -1,3 +1,6 @@
 .frames/
 checkframes/
 measure.mjs
+
+# generated font artifacts from design/build_ribbons.py
+fonts/
